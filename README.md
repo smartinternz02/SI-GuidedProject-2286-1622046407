@@ -38,10 +38,8 @@ After training our model, the next step was to make our project available to use
 
 The essential of the webpage can be found in the folder, webapp. Screenshots of the webpage can be found in the following links:
 
-webpage1 jpg
-webpage2 jpg
-webpage3 jpg
-Conclusion
+Conclusion:
+
 In this project, we introduced a deep neural network model capable of representing both local and contextual usage of information by essay scoring. This model yields score-specific word embeddings used later by a recurrent neural network in order to form essay representations. We have shown that this kind of architecture is able to surpass similar state-of-the-art systems. We also introduced a novel way of exploring the basis of the network’s internal scoring criteria and showed that such models are interpretable and can be further explored to provide useful feedback to the author.
 
 It was satisfying that our neural network model using 300-dimensional LSTM as initialization to the embedding layer was our most successful model. We believe that a more extensive hyperparameter search with our LSTM based models could outperform this result. There are many ideas moving forward. Trying out the models in Ensemble mode is also an extension we wish to try out in the near future.
